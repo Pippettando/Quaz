@@ -264,7 +264,7 @@ bool CMasternode::IsInputAssociatedWithPubkey()
     uint256 hash;
     if(GetTransaction(vin.prevout.hash, tx, Params().GetConsensus(), hash, true)) {
         BOOST_FOREACH(CTxOut out, tx.vout)
-            if(out.nValue == 1500*COIN && out.scriptPubKey == payee) return true;
+            if(out.nValue == 2000*COIN && out.scriptPubKey == payee) return true;
     }
 
     return false;
@@ -570,7 +570,7 @@ bool CMasternodeBroadcast::CheckOutpoint(int& nDos)
         }
 
         if (err == COLLATERAL_INVALID_AMOUNT) {
-            LogPrint("masternode", "CMasternodeBroadcast::CheckOutpoint -- Masternode UTXO should have 1500 QUAZ, masternode=%s\n", vin.prevout.ToStringShort());
+            LogPrint("masternode", "CMasternodeBroadcast::CheckOutpoint -- Masternode UTXO should have 2000 QUAZ, masternode=%s\n", vin.prevout.ToStringShort());
             return false;
         }
 
