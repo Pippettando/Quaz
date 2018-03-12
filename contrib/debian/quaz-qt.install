@@ -1,0 +1,6 @@
+usr/local/bin/quaz-qt usr/bin
+share/pixmaps/quaz32.xpm usr/share/pixmaps
+share/pixmaps/quaz16.xpm usr/share/pixmaps
+share/pixmaps/quaz128.png usr/share/pixmaps
+debian/quaz-qt.desktop usr/share/applications
+debian/quaz-qt.protocol usr/share/kde4/services/

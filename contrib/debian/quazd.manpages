@@ -1,0 +1,3 @@
+debian/manpages/quazd.1
+debian/manpages/quaz.conf.5
+debian/manpages/quaz-cli.1

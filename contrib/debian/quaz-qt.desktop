@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Quaz
+Comment=Quaz P2P Cryptocurrency
+Comment[fr]=Quaz, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Quaz, eşten eşe kriptografik sanal para birimi
+Exec=quaz-qt %u
+Terminal=false
+Type=Application
+Icon=quaz128
+MimeType=x-scheme-handler/quaz;
+Categories=Office;Finance;
